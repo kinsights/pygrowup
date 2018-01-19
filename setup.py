@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pygrowup",
-    version=__import__('pygrowup').get_version().replace(' ', '-'),
+    version="0.8.2",
     license="BSD",
 
     packages=find_packages(),
